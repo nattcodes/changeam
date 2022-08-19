@@ -224,6 +224,7 @@ form button {
     -webkit-backdrop-filter: blur( 3px);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
+    z-index: 1;
 }
 
 .background-convert p {
@@ -239,6 +240,7 @@ form button {
     position: absolute;
     top: 83%;
     left: 55%;
+    z-index: -1;
 }
 
 .news i {
@@ -247,6 +249,7 @@ form button {
 }
 
 .footer {
+    z-index: -1;
     position: absolute;
     width: 100%;
     top: 92%;
