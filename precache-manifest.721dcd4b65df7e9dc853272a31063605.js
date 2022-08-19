@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "20a704c0c5dac1b31a1a",
-    "url": "/changeam/static/css/main.33b4e1da.chunk.css"
+    "revision": "e1bcfcac43b1a6f6dbdc",
+    "url": "/changeam/static/css/main.bc0301a0.chunk.css"
   },
   {
-    "revision": "20a704c0c5dac1b31a1a",
-    "url": "/changeam/static/js/main.20a704c0.chunk.js"
+    "revision": "e1bcfcac43b1a6f6dbdc",
+    "url": "/changeam/static/js/main.e1bcfcac.chunk.js"
   },
   {
     "revision": "f3ba07ae8adf9c0824d2",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/Livvic-Regular.686d9685.ttf"
   },
   {
-    "revision": "1191108eb1c36cfecb982299c4e2da13",
-    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
-  },
-  {
     "revision": "a82040ecf06139df2f3e653326b3420c",
     "url": "/changeam/static/media/Bangers-Regular.a82040ec.ttf"
+  },
+  {
+    "revision": "1191108eb1c36cfecb982299c4e2da13",
+    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
   },
   {
     "revision": "bd27b3ec97d12655c7a2803cb6464924",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/EastSeaDokdo-Regular.939b732d.ttf"
   },
   {
-    "revision": "2aedaaeee01141eee27d807b4773abab",
+    "revision": "5e1d53cdf19f761e52eae0348c93f1dd",
     "url": "/changeam/index.html"
   }
 ];
