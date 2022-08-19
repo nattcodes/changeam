@@ -112,7 +112,9 @@ a {
 /* -------X-----NAVBAR--------X------- */
 
 .converter {
+    position: absolute;
     width: 100%;
+    height: 100vh;
 }
 
 .converter-content {
