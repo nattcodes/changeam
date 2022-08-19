@@ -4,14 +4,16 @@ const Content = () => {
   return (
     <main className="converter">
       <div className="converter-content">
-        <h1>CONVERTER</h1>
+        <div className="wallpaper">
+          <h1>CONVERTER</h1>
+        </div>
         <div className="background-convert">
           <form>
             <h3>Enter Amout</h3>
             <input type="number" placeholder="1234567890" />
             <div className="currencyDiv">
               <div className="left">
-                <h3>from:</h3>
+                <h3>From:</h3>
                 <select><option value="USD">USD</option></select>
               </div>
               <i class="fas fa-exchange-alt"></i>
@@ -25,9 +27,9 @@ const Content = () => {
           </form>
           <p>1 Dollar is equal to 717 in Naira</p>
         </div>
-      </div>
-      <div className="news">
-        <a href="#">News about currency rates<i class="fas fa-arrow-right"></i></a>
+        <div className="news">
+          <a href="#">News about currency rates<i class="fas fa-arrow-right"></i></a>
+        </div>
       </div>
     </main>
   );
