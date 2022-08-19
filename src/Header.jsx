@@ -5,12 +5,10 @@ const Header = () => {
     <nav className='navbar'>
         <div className="nav-content">
             <div className="nav-brand">
-                <h1>change<span>Am</span>.</h1>
+                <h1>change<span>Am</span></h1>
             </div>
             <a href="#">about</a>
         </div>
-        
-
     </nav>
   )
 }
