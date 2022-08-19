@@ -28,7 +28,7 @@ const Content = () => {
           <p>1 Dollar is equal to 717 in Naira</p>
         </div>
         <div className="news">
-          <a href="#">News about currency rates<i class="fas fa-arrow-right"></i></a>
+          <a href="https://www.cnbc.com/currencies/">News about currency rates<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </main>
