@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Sansita;
-    src: url(../fonts/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf);
+    src: url(./fonts/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf);
 }
 
 
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Courgette;
-    src: url(../fonts/Courgette/Courgette-Regular.ttf);
+    src: url(./fonts/Courgette/Courgette-Regular.ttf);
 }
 
 
@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: Abel;
-    src: url(../fonts/Abel/Abel-Regular.ttf);
+    src: url(./fonts/Abel/Abel-Regular.ttf);
 }
 
 
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: Livvic;
-    src: url(../fonts/Livvic/Livvic-Regular.ttf);
+    src: url(./fonts/Livvic/Livvic-Regular.ttf);
 }
 
 
@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: Averia_Serif_Libre;
-    src: url(../fonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf);
+    src: url(./fonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf);
 }
 
 
@@ -42,7 +42,7 @@
 
 @font-face {
     font-family: Bangers;
-    src: url(../fonts/Bangers/Bangers-Regular.ttf);
+    src: url(./fonts/Bangers/Bangers-Regular.ttf);
 }
 
 
@@ -50,7 +50,7 @@
 
 @font-face {
     font-family: Be_Vietnam;
-    src: url(../fonts/Be_Vietnam/BeVietnam-Regular.ttf);
+    src: url(./fonts/Be_Vietnam/BeVietnam-Regular.ttf);
 }
 
 
@@ -58,7 +58,7 @@
 
 @font-face {
     font-family: Kaushan_Script;
-    src: url(../fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+    src: url(./fonts/Kaushan_Script/KaushanScript-Regular.ttf);
 }
 
 
@@ -66,7 +66,7 @@
 
 @font-face {
     font-family: Special_Elite;
-    src: url(../fonts/Special_Elite/SpecialElite-Regular.ttf);
+    src: url(./fonts/Special_Elite/SpecialElite-Regular.ttf);
 }
 
 
@@ -74,7 +74,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
 }
 
 
@@ -82,7 +82,7 @@
 
 @font-face {
     font-family: East_Sea_Dokdo;
-    src: url(../fonts/East_Sea_Dokdo/EastSeaDokdo-Regular.ttf);
+    src: url(./fonts/East_Sea_Dokdo/EastSeaDokdo-Regular.ttf);
 }
 
 
@@ -90,7 +90,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
 }
 
 
@@ -98,7 +98,7 @@
 
 @font-face {
     font-family: Montserrat1;
-    src: url(../fonts/Montserrat/Montserrat-Black.otf);
+    src: url(./fonts/Montserrat/Montserrat-Black.otf);
 }
 
 
@@ -106,7 +106,7 @@
 
 @font-face {
     font-family: Montserrat2;
-    src: url(../fonts/Montserrat/Montserrat-ExtraBold.otf);
+    src: url(./fonts/Montserrat/Montserrat-ExtraBold.otf);
 }
 
 
@@ -114,5 +114,5 @@
 
 @font-face {
     font-family: Montserrat3;
-    src: url(../fonts/Montserrat/Montserrat-Bold.otf);
+    src: url(./fonts/Montserrat/Montserrat-Bold.otf);
 }
