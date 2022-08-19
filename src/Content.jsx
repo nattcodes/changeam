@@ -8,7 +8,7 @@ const Content = () => {
         <div className="background-convert">
           <form>
             <h3>Enter Amout</h3>
-            <input type="number" placeholder="0" />
+            <input type="number" placeholder="1234567890" />
             <div className="currencyDiv">
               <div className="left">
                 <h3>from:</h3>
@@ -23,7 +23,7 @@ const Content = () => {
             </div>
             <button>Get Exchange Rate</button>
           </form>
-          <p>1 Dollor is equal to 717 in Naira</p>
+          <p>1 Dollar is equal to 717 in Naira</p>
         </div>
       </div>
       <div className="news">
