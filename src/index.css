@@ -245,6 +245,7 @@ form button {
 
 .news a {
     margin: 0 14rem;
+    font-family: var(--Be_Vietnam);
 }
 
 .news i {
@@ -253,8 +254,8 @@ form button {
 }
 
 .footer {
-    z-index: -1;
     position: absolute;
+    z-index: -1;
     width: 100%;
     top: 92%;
 }
@@ -279,6 +280,7 @@ form button {
     }
     .nav-content a {
         margin: 0 1rem;
+        font-size: 1rem;
     }
     .converter {
         width: 100%;
@@ -337,10 +339,7 @@ form button {
     .news a {
         margin-bottom: 1rem;
         margin: 1rem 24rem;
-    }
-    .news i {
-        margin: -.2rem 1rem;
-        padding: 0;
+        font-size: .9rem;
     }
     .news i {
         margin: -.2rem .6rem;
@@ -351,7 +350,8 @@ form button {
         top: 92%;
     }
     .footer p {
-        padding: 1rem 0;
+        margin-top: 1rem;
+        padding: .5rem 0;
         margin: 0 3rem;
         border-top: 1px solid rgba(255, 255, 255, 0.421);
         text-align: center;
@@ -359,13 +359,6 @@ form button {
         font-size: .9rem;
         color: rgba(0, 0, 0, 0.435);
         font-weight: bolder;
-    }
-}
-
-@media (max-width:375px) {
-    .news {
-        top: 77%;
-        left: 31%;
     }
 }
 
