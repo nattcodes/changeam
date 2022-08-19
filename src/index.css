@@ -345,5 +345,12 @@ form button {
     }
 }
 
+@media (max-width:375px) {
+    .news {
+        top: 77%;
+        left: 31%;
+    }
+}
+
 
 /*----------X---------VIEW PORT---------X----------*/
