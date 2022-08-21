@@ -201,15 +201,34 @@ form input::placeholder {
 }
 
 select {
-    border-radius: .4rem;
+    background-color: transparent;
     border: none;
-    background-color: rgba(255, 255, 255, 0.812);
-    margin-top: -.1rem;
-    padding: .9rem 2rem;
+    outline: none;
 }
 
-select option {
-    color: red;
+.left .left-box,
+.right .right-box {
+    width: 115px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.812);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    border-radius: .4rem;
+}
+
+.left-box select,
+.right-box select {
+    width: auto;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.left-box img,
+.right-box img {
+    margin-left: 14px;
+    max-width: 25px;
 }
 
 form button {
@@ -320,8 +339,21 @@ form button {
         align-items: center;
         margin: 0 2rem;
     }
-    select {
-        padding: .9rem 1rem;
+    .left .left-box,
+    .right .right-box {
+        width: 85px;
+        height: 45px;
+    }
+    .left-box select,
+    .right-box select {
+        width: auto;
+        font-size: .9rem;
+        margin: 0;
+    }
+    .left-box img,
+    .right-box img {
+        margin-left: 6px;
+        max-width: 22px;
     }
     form button {
         width: 100%;

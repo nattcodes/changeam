@@ -14,12 +14,30 @@ const Content = () => {
             <div className="currencyDiv">
               <div className="left">
                 <h3>From:</h3>
-                <select><option value="USD">USD</option></select>
+                <div className="left-box">
+                  <img src="https://flagicons.lipis.dev/flags/4x3/um.svg" />
+                  <select>
+                    <option value="USD">USD</option>
+                    <option value="USD">USD</option>
+                    <option value="USD">USD</option>
+                    <option value="USD">USD</option>
+                    <option value="USD">USD</option>
+                  </select>
+                </div>
               </div>
               <i class="fas fa-exchange-alt"></i>
               <div className="right">
                 <h3>To:</h3>
-                <select><option value="NGN">NGN</option></select>
+                <div className="right-box">
+                  <img src="https://flagicons.lipis.dev/flags/4x3/ng.svg" />
+                  <select>
+                    <option value="USD">NGN</option>
+                    <option value="USD">NGN</option>
+                    <option value="USD">NGN</option>
+                    <option value="USD">NGN</option>
+                    <option value="USD">NGN</option>
+                  </select>
+                </div>
               </div>
               
             </div>
