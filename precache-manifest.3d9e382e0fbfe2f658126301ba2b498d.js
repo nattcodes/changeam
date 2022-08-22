@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "47a3900584388e3d30a2",
-    "url": "/changeam/static/css/main.a80ce87a.chunk.css"
+    "revision": "7e40071166fe65ccf181",
+    "url": "/changeam/static/css/main.482f5f44.chunk.css"
   },
   {
-    "revision": "47a3900584388e3d30a2",
-    "url": "/changeam/static/js/main.47a39005.chunk.js"
+    "revision": "7e40071166fe65ccf181",
+    "url": "/changeam/static/js/main.7e400711.chunk.js"
   },
   {
-    "revision": "f3ba07ae8adf9c0824d2",
-    "url": "/changeam/static/js/1.f3ba07ae.chunk.js"
+    "revision": "24758a8b680d33a928be",
+    "url": "/changeam/static/js/1.24758a8b.chunk.js"
   },
   {
     "revision": "013178ca9e6e63e40b70",
     "url": "/changeam/static/js/runtime~main.013178ca.js"
   },
   {
-    "revision": "a2d502040b92592e04a3436256fa0e5c",
-    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
-  },
-  {
     "revision": "59c3685a73f0f1b7c302dd2d6dabd628",
     "url": "/changeam/static/media/Courgette-Regular.59c3685a.ttf"
+  },
+  {
+    "revision": "a2d502040b92592e04a3436256fa0e5c",
+    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
   },
   {
     "revision": "1191108eb1c36cfecb982299c4e2da13",
@@ -36,36 +36,36 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/Livvic-Regular.686d9685.ttf"
   },
   {
-    "revision": "a82040ecf06139df2f3e653326b3420c",
-    "url": "/changeam/static/media/Bangers-Regular.a82040ec.ttf"
-  },
-  {
     "revision": "bd27b3ec97d12655c7a2803cb6464924",
     "url": "/changeam/static/media/BeVietnam-Regular.bd27b3ec.ttf"
+  },
+  {
+    "revision": "a82040ecf06139df2f3e653326b3420c",
+    "url": "/changeam/static/media/Bangers-Regular.a82040ec.ttf"
   },
   {
     "revision": "bafd78da573962d22a817cf22678c8dc",
     "url": "/changeam/static/media/KaushanScript-Regular.bafd78da.ttf"
   },
   {
+    "revision": "e07df86cef2e721115583d61d1fb68a6",
+    "url": "/changeam/static/media/Roboto-Bold.e07df86c.ttf"
+  },
+  {
     "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
     "url": "/changeam/static/media/Poppins-Regular.8b6af8e5.ttf"
-  },
-  {
-    "revision": "561246a3549d3b797b4b611652a79d7c",
-    "url": "/changeam/static/media/Montserrat-Black.561246a3.otf"
-  },
-  {
-    "revision": "433ac418a603294fc5891dde6a73cd24",
-    "url": "/changeam/static/media/Montserrat-ExtraBold.433ac418.otf"
   },
   {
     "revision": "7059acee3b9d8ea9744c26ab45135a8b",
     "url": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
   },
   {
-    "revision": "e07df86cef2e721115583d61d1fb68a6",
-    "url": "/changeam/static/media/Roboto-Bold.e07df86c.ttf"
+    "revision": "433ac418a603294fc5891dde6a73cd24",
+    "url": "/changeam/static/media/Montserrat-ExtraBold.433ac418.otf"
+  },
+  {
+    "revision": "561246a3549d3b797b4b611652a79d7c",
+    "url": "/changeam/static/media/Montserrat-Black.561246a3.otf"
   },
   {
     "revision": "9c71d42b6a840ecfda8fc555040a1c76",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/EastSeaDokdo-Regular.939b732d.ttf"
   },
   {
-    "revision": "6259820b2ceeec6341421ae5249eb267",
+    "revision": "f4ebd952f7419256d4ce5e4337f3c5fa",
     "url": "/changeam/index.html"
   }
 ];
