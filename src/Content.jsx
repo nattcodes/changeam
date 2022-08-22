@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
 
 const Content = () => {
+  const [converter, setConverter] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:3500/rates')
+    .then((res) => res.json())
+    .then((data) => setConverter(data))
+  
+  }, [])
+  // const API_URL = 'https://api.apilayer.com/fixer/latest?apikey=3UWP7PRyFvAX7He4xA1TupaLdJqfFrCo'
+   
+   
+  const keys = Object.keys(converter);
   return (
     <main className="converter">
       <div className="converter-content">
@@ -17,11 +29,10 @@ const Content = () => {
                 <div className="left-box">
                   <img src="https://flagicons.lipis.dev/flags/4x3/um.svg" />
                   <select>
-                    <option value="USD">USD</option>
-                    <option value="USD">USD</option>
-                    <option value="USD">USD</option>
-                    <option value="USD">USD</option>
-                    <option value="USD">USD</option>
+                  {keys.map((converterItem, index) =>
+                    <option key={index} value={converterItem}>{converterItem}</option>
+                  )}
+                    
                   </select>
                 </div>
               </div>
@@ -31,15 +42,12 @@ const Content = () => {
                 <div className="right-box">
                   <img src="https://flagicons.lipis.dev/flags/4x3/ng.svg" />
                   <select>
-                    <option value="USD">NGN</option>
-                    <option value="USD">NGN</option>
-                    <option value="USD">NGN</option>
-                    <option value="USD">NGN</option>
-                    <option value="USD">NGN</option>
+                  {keys.map((converterItem, index) =>
+                    <option key={index} value={converterItem}>{converterItem}</option>
+                  )}
                   </select>
                 </div>
               </div>
-              
             </div>
             <button>Get Exchange Rate</button>
           </form>
