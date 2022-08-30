@@ -191,7 +191,8 @@ const Content = () => {
     "YER" : "YE",
     "ZAR" : "ZA",
     "ZMK" : "ZM",
-    "ZWD" : "ZW"
+    "ZWD" : "ZW",
+    "ZWL": "zl"
 }
 
 // function loadFlag(element){
@@ -228,6 +229,12 @@ const keys = Object.keys(converter); //converting our data/converter into array.
 
 const searchFrom = `https://flagicons.lipis.dev/flags/4x3/${imgSearchFrom}.svg`
 const searchTo = `https://flagicons.lipis.dev/flags/4x3/${imgSearchTo}.svg`
+const switcher = () => {
+  setFromCurrency(toCurrency)
+  setToCurrency(fromCurrency)
+  setImgSearchFrom(imgSearchTo)
+  setImgSearchTo(imgSearchFrom)
+}
 
 return (
     <main className="converter">
@@ -257,7 +264,7 @@ return (
                   </select>
                 </div>
               </div>
-              <i class="fas fa-exchange-alt"></i>
+              <button className="iconBtn" onClick={switcher}><i class="fas fa-exchange-alt"></i></button>
               <div className="right">
                 <h3>To:</h3>
                 <div className="right-box">
@@ -270,7 +277,7 @@ return (
                 </div>
               </div>
             </div>
-            <button>Get Exchange Rate</button>
+            <button className="exchangeBtn">Get Exchange Rate</button>
           </form>
           <p>{converterInput}</p>
         </div>

@@ -54,6 +54,10 @@ a {
     color: white;
 }
 
+button {
+    cursor: pointer;
+}
+
 
 /* -------X------GLOBAL CLASSES--------X-------- */
 
@@ -195,15 +199,25 @@ form input::placeholder {
     margin-bottom: .7rem;
 }
 
-.currencyDiv i {
+.currencyDiv .iconBtn {
     align-items: center;
     margin: 0 3rem;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: .9rem;
+}
+
+.currencyDiv .iconBtn:focus {
+    transform: rotateY(180deg);
+    transition: .1s ease-in-out;
 }
 
 select {
     background-color: transparent;
     border: none;
     outline: none;
+    font-family: var(--Poppins);
 }
 
 .left .left-box,
@@ -231,7 +245,7 @@ select {
     max-width: 25px;
 }
 
-form button {
+form .exchangeBtn {
     color: rgba(255, 255, 255, 0.908);
     font-family: var(--Be_Vietnam);
     font-weight: lighter;
