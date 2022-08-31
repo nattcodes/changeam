@@ -58,7 +58,7 @@ return (
             </div>
             <button className="exchangeBtn" onClick={exchangeRate}>Get Exchange Rate</button>
           </form>
-          <p>{converterInput} {fromCurrency} = {result} {toCurrency}</p>
+          <p>{converterInput.toLocaleString()} {fromCurrency} = {result.toLocaleString()} {toCurrency}</p>
         </div>
         <div className="news">
           <a href="https://www.cnbc.com/currencies/">News about currency rates<i class="fas fa-arrow-right"></i></a>
