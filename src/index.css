@@ -349,13 +349,17 @@ form .exchangeBtn {
     .left h3 {
         margin-bottom: .3rem;
     }
-    .currencyDiv i {
+    .currencyDiv .iconBtn {
         align-items: center;
-        margin: 0 2rem;
+        margin: 0 -5.7rem;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        font-size: .9rem;
     }
     .left .left-box,
     .right .right-box {
-        width: 85px;
+        width: 90px;
         height: 45px;
     }
     .left-box select,
