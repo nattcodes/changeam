@@ -16,6 +16,10 @@ self.__precacheManifest = [
     "url": "/changeam/static/js/runtime~main.013178ca.js"
   },
   {
+    "revision": "a2d502040b92592e04a3436256fa0e5c",
+    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
+  },
+  {
     "revision": "59c3685a73f0f1b7c302dd2d6dabd628",
     "url": "/changeam/static/media/Courgette-Regular.59c3685a.ttf"
   },
@@ -24,16 +28,12 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/Abel-Regular.1052d6ca.ttf"
   },
   {
-    "revision": "a2d502040b92592e04a3436256fa0e5c",
-    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
+    "revision": "1191108eb1c36cfecb982299c4e2da13",
+    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
   },
   {
     "revision": "686d9685b805c407876cd1abd698fd73",
     "url": "/changeam/static/media/Livvic-Regular.686d9685.ttf"
-  },
-  {
-    "revision": "1191108eb1c36cfecb982299c4e2da13",
-    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
   },
   {
     "revision": "a82040ecf06139df2f3e653326b3420c",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/BeVietnam-Regular.bd27b3ec.ttf"
   },
   {
-    "revision": "7059acee3b9d8ea9744c26ab45135a8b",
-    "url": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
-  },
-  {
     "revision": "bafd78da573962d22a817cf22678c8dc",
     "url": "/changeam/static/media/KaushanScript-Regular.bafd78da.ttf"
+  },
+  {
+    "revision": "7059acee3b9d8ea9744c26ab45135a8b",
+    "url": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
   },
   {
     "revision": "8b6af8e5e8324edfd77af8b3b35d7f9c",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/EastSeaDokdo-Regular.939b732d.ttf"
   },
   {
-    "revision": "0f7951b3d9ff60f316601b4d76cbfd18",
+    "revision": "6f00d9ae3785548e27fef3719233b458",
     "url": "/changeam/index.html"
   }
 ];
