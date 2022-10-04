@@ -12,7 +12,7 @@ function App() {
   const [imgSearchFrom, setImgSearchFrom] = useState("ng"); //default input for our img URL on the fromCurrency
   const [imgSearchTo, setImgSearchTo] = useState("us"); //default input for our img URL on the toCurrency
   const [converterInput, setConverterInput] = useState(432); // form input
-  const [result, setResult] = useState(1.00); //our total data/value gotten from the current conversion
+  const [result, setResult] = useState('1.00'); //our total data/value gotten from the current conversion
 
   useEffect(() => {
     fetcher()
@@ -223,8 +223,11 @@ const loadFlagTo = (e) => {
   }
 }
 function exchangeRate() { //getting the value from the input and miltiplying it by the toCurrency and dividing by the fromCurrency to get our result
-  const value = converterInput * converter[toCurrency] / converter[fromCurrency];
-  setResult((value).toFixed(2))
+  const value = (converterInput * converter[toCurrency] / converter[fromCurrency]).toLocaleString(undefined, {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  });
+  setResult(value)
 }
 
 
@@ -240,8 +243,11 @@ const switcher = () => { // to switch two currencies using the switch icon
   setToCurrency(fromCurrency)
   setImgSearchFrom(imgSearchTo)
   setImgSearchTo(imgSearchFrom)
-  const value = converterInput * converter[fromCurrency] / converter[toCurrency];
-  setResult((value).toFixed(2))
+  const value = (converterInput * converter[fromCurrency] / converter[toCurrency]).toLocaleString(undefined, {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
+  });
+  setResult(value)
   
 }
     return ( 
