@@ -11,8 +11,8 @@ function App() {
   const [toCurrency, setToCurrency] = useState(); // to set our to currency to a default currency once on load
   const [imgSearchFrom, setImgSearchFrom] = useState("ng"); //default input for our img URL on the fromCurrency
   const [imgSearchTo, setImgSearchTo] = useState("us"); //default input for our img URL on the toCurrency
-  const [converterInput, setConverterInput] = useState(425); // form input
-  const [result, setResult] = useState('1.00'); //our total data/value gotten from the current conversion
+  const [converterInput, setConverterInput] = useState(432); // form input
+  const [result, setResult] = useState(1.00); //our total data/value gotten from the current conversion
 
   useEffect(() => {
     fetcher()
