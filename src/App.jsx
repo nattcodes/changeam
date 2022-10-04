@@ -11,7 +11,7 @@ function App() {
   const [toCurrency, setToCurrency] = useState(); // to set our to currency to a default currency once on load
   const [imgSearchFrom, setImgSearchFrom] = useState("ng"); //default input for our img URL on the fromCurrency
   const [imgSearchTo, setImgSearchTo] = useState("us"); //default input for our img URL on the toCurrency
-  const [converterInput, setConverterInput] = useState(421); // form input
+  const [converterInput, setConverterInput] = useState(432); // form input
   const [result, setResult] = useState('1.00'); //our total data/value gotten from the current conversion
 
   useEffect(() => {
@@ -19,7 +19,13 @@ function App() {
   }, [])
 
   const fetcher = () => {
-    fetch('changeam.json') //api url
+    fetch('changeam.json',{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    ) //api url
     .then((res) => res.json())
     .then((data) => {
       const firstCurrency = Object.keys(data.rates)[106]
