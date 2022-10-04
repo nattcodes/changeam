@@ -12,7 +12,7 @@ function App() {
   const [imgSearchFrom, setImgSearchFrom] = useState("ng"); //default input for our img URL on the fromCurrency
   const [imgSearchTo, setImgSearchTo] = useState("us"); //default input for our img URL on the toCurrency
   const [converterInput, setConverterInput] = useState(432); // form input
-  const [result, setResult] = useState('1.00'); //our total data/value gotten from the current conversion
+  const [result, setResult] = useState('1'); //our total data/value gotten from the current conversion
 
   useEffect(() => {
     fetcher()
