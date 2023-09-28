@@ -28,7 +28,7 @@ return (
               type="number" 
               placeholder="1234567890" 
               value={converterInput}
-              onChange={(e) => setConverterInput(+e.target.value)}
+              onChange={(e) => setConverterInput(e.target.value)}
             />
             <div className="currencyDiv">
               <div className="left">
