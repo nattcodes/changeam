@@ -24,28 +24,20 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/Abel-Regular.1052d6ca.ttf"
   },
   {
-    "revision": "a2d502040b92592e04a3436256fa0e5c",
-    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
-  },
-  {
     "revision": "686d9685b805c407876cd1abd698fd73",
     "url": "/changeam/static/media/Livvic-Regular.686d9685.ttf"
   },
   {
-    "revision": "1191108eb1c36cfecb982299c4e2da13",
-    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
+    "revision": "a2d502040b92592e04a3436256fa0e5c",
+    "url": "/changeam/static/media/SansitaSwashed-VariableFont_wght.a2d50204.ttf"
   },
   {
     "revision": "a82040ecf06139df2f3e653326b3420c",
     "url": "/changeam/static/media/Bangers-Regular.a82040ec.ttf"
   },
   {
-    "revision": "bd27b3ec97d12655c7a2803cb6464924",
-    "url": "/changeam/static/media/BeVietnam-Regular.bd27b3ec.ttf"
-  },
-  {
-    "revision": "7059acee3b9d8ea9744c26ab45135a8b",
-    "url": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
+    "revision": "1191108eb1c36cfecb982299c4e2da13",
+    "url": "/changeam/static/media/AveriaSerifLibre-Regular.1191108e.ttf"
   },
   {
     "revision": "bafd78da573962d22a817cf22678c8dc",
@@ -56,8 +48,16 @@ self.__precacheManifest = [
     "url": "/changeam/static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
+    "revision": "7059acee3b9d8ea9744c26ab45135a8b",
+    "url": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
+  },
+  {
     "revision": "e07df86cef2e721115583d61d1fb68a6",
     "url": "/changeam/static/media/Roboto-Bold.e07df86c.ttf"
+  },
+  {
+    "revision": "bd27b3ec97d12655c7a2803cb6464924",
+    "url": "/changeam/static/media/BeVietnam-Regular.bd27b3ec.ttf"
   },
   {
     "revision": "561246a3549d3b797b4b611652a79d7c",
