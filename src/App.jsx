@@ -29,7 +29,7 @@ function App() {
     .then((res) => res.json())
     .then((data) => {
       const firstCurrency = Object.keys(data.rates)[106]
-      const secondCurrency = Object.keys(data.rates)[150]
+      const secondCurrency = Object.keys(data.rates)[149]
       setConverter(data.rates);
       setFromCurrency(firstCurrency);
       setToCurrency(secondCurrency);
