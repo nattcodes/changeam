@@ -1,14 +1,14 @@
 {
-  "main.css": "/changeam/static/css/main.3cc2c2ea.chunk.css",
-  "main.js": "/changeam/static/js/main.d9e17fc4.chunk.js",
-  "main.js.map": "/changeam/static/js/main.d9e17fc4.chunk.js.map",
-  "static/js/1.48dc1c1c.chunk.js": "/changeam/static/js/1.48dc1c1c.chunk.js",
-  "static/js/1.48dc1c1c.chunk.js.map": "/changeam/static/js/1.48dc1c1c.chunk.js.map",
-  "runtime~main.js": "/changeam/static/js/runtime~main.013178ca.js",
-  "runtime~main.js.map": "/changeam/static/js/runtime~main.013178ca.js.map",
-  "static/media/index.css": "/changeam/static/media/EastSeaDokdo-Regular.939b732d.ttf",
-  "static/css/main.3cc2c2ea.chunk.css.map": "/changeam/static/css/main.3cc2c2ea.chunk.css.map",
+  "main.css": "/changeam/static/css/main.f175735e.chunk.css",
+  "main.js": "/changeam/static/js/main.0a10132b.chunk.js",
+  "main.js.map": "/changeam/static/js/main.0a10132b.chunk.js.map",
+  "runtime~main.js": "/changeam/static/js/runtime~main.7af19f29.js",
+  "runtime~main.js.map": "/changeam/static/js/runtime~main.7af19f29.js.map",
+  "static/js/2.ca48165b.chunk.js": "/changeam/static/js/2.ca48165b.chunk.js",
+  "static/js/2.ca48165b.chunk.js.map": "/changeam/static/js/2.ca48165b.chunk.js.map",
   "index.html": "/changeam/index.html",
-  "precache-manifest.f45b12d558f3db2e4e88e7cd260721b4.js": "/changeam/precache-manifest.f45b12d558f3db2e4e88e7cd260721b4.js",
-  "service-worker.js": "/changeam/service-worker.js"
+  "precache-manifest.dbb10363257fee44848f375d7515189b.js": "/changeam/precache-manifest.dbb10363257fee44848f375d7515189b.js",
+  "service-worker.js": "/changeam/service-worker.js",
+  "static/css/main.f175735e.chunk.css.map": "/changeam/static/css/main.f175735e.chunk.css.map",
+  "static/media/index.css": "/changeam/static/media/SpecialElite-Regular.7059acee.ttf"
 }
